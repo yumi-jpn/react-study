@@ -2,7 +2,7 @@ import React from "react";
 
 // propsを渡す場合は、渡す方と渡され方どちらにも引数を書く
 // props名は任意で好きなものを書けるがpropsとするとわかりやすいのでおすすめ
-const ColorfulMessage = (props) => {
+export const ColorfulMessage = (props) => {
   // props → {color: "blue", message: "お元気ですか？"あ}
 
   // 分割代入を使うことで、props.colorなどのpropsを省略して書ける！
@@ -18,5 +18,3 @@ const ColorfulMessage = (props) => {
   }
   return <p style={contentStyle}>{children}</p>;
 };
-
-export default ColorfulMessage;

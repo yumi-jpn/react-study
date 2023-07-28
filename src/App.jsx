@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import { useEffect } from "react/cjs/react.production.min";
-import ColorfulMessage from "./components/ColorfulMessage";
+import React, { useState, useEffect } from "react";
+import { ColorfulMessage } from "./components/ColorfulMessage";
 
 const App = () => {
   // 動的に変わる予定のnum変数、それを更新する関数setNum。初期値はuseStateの()に書く
